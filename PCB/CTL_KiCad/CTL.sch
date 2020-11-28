@@ -1,0 +1,590 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5FC02225
+P 5200 4100
+F 0 "SW1" H 5200 3733 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 5200 3824 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5050 4260 50  0001 C CNN
+F 3 "~" H 5200 4360 50  0001 C CNN
+	1    5200 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J3
+U 1 1 5FC02F2E
+P 1950 1800
+F 0 "J3" H 1900 2300 50  0000 L CNN
+F 1 "Conn_01x10" H 2030 1701 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1950 1800 50  0001 C CNN
+F 3 "~" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SL2
+U 1 1 5FC0549A
+P 5000 2300
+F 0 "SL2" H 5000 2493 50  0000 C CNN
+F 1 "SW_Push" H 5000 2494 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5000 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SL3
+U 1 1 5FC05B01
+P 5000 3100
+F 0 "SL3" H 5000 3293 50  0000 C CNN
+F 1 "SW_Push" H 5000 3294 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5000 3300 50  0001 C CNN
+F 3 "~" H 5000 3300 50  0001 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SR1
+U 1 1 5FC05F92
+P 5000 1800
+F 0 "SR1" H 5000 1993 50  0000 C CNN
+F 1 "SW_Push" H 5000 1994 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5000 2000 50  0001 C CNN
+F 3 "~" H 5000 2000 50  0001 C CNN
+	1    5000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SR2
+U 1 1 5FC0661F
+P 5000 2600
+F 0 "SR2" H 5000 2793 50  0000 C CNN
+F 1 "SW_Push" H 5000 2794 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5000 2800 50  0001 C CNN
+F 3 "~" H 5000 2800 50  0001 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SR3
+U 1 1 5FC06B76
+P 5000 3400
+F 0 "SR3" H 5000 3593 50  0000 C CNN
+F 1 "SW_Push" H 5000 3594 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5000 3600 50  0001 C CNN
+F 3 "~" H 5000 3600 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FC0B006
+P 4700 2050
+F 0 "R1" H 4770 2096 50  0000 L CNN
+F 1 "1k" H 4770 2005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4630 2050 50  0001 C CNN
+F 3 "~" H 4700 2050 50  0001 C CNN
+	1    4700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FC0D8F5
+P 4700 2850
+F 0 "R2" H 4770 2896 50  0000 L CNN
+F 1 "1k" H 4770 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4630 2850 50  0001 C CNN
+F 3 "~" H 4700 2850 50  0001 C CNN
+	1    4700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FC0DC54
+P 4700 3650
+F 0 "R3" H 4770 3696 50  0000 L CNN
+F 1 "1k" H 4770 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4630 3650 50  0001 C CNN
+F 3 "~" H 4700 3650 50  0001 C CNN
+	1    4700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FC0E6F0
+P 4800 4450
+F 0 "R4" H 4870 4496 50  0000 L CNN
+F 1 "4.7k" H 4870 4405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4730 4450 50  0001 C CNN
+F 3 "~" H 4800 4450 50  0001 C CNN
+	1    4800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FC0EBB2
+P 6700 2250
+F 0 "R5" H 6770 2296 50  0000 L CNN
+F 1 "1k" H 6770 2205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 6630 2250 50  0001 C CNN
+F 3 "~" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 J4
+U 1 1 5FC10917
+P 6850 4000
+F 0 "J4" H 6850 4267 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6850 4176 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 6850 4000 50  0001 C CNN
+F 3 "~" H 6850 4000 50  0001 C CNN
+	1    6850 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q1
+U 1 1 5FC118D8
+P 7000 2000
+F 0 "Q1" H 7191 2046 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 7191 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 7200 2100 50  0001 C CNN
+F 3 "~" H 7000 2000 50  0001 C CNN
+	1    7000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Buzzer SG1
+U 1 1 5FC154DC
+P 7300 1600
+F 0 "SG1" H 7452 1629 50  0000 L CNN
+F 1 "Buzzer" H 7452 1538 50  0000 L CNN
+F 2 "" V 7275 1700 50  0001 C CNN
+F 3 "~" V 7275 1700 50  0001 C CNN
+	1    7300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5FC1B96E
+P 4700 1400
+F 0 "#PWR0101" H 4700 1250 50  0001 C CNN
+F 1 "+5V" H 4715 1573 50  0000 C CNN
+F 2 "" H 4700 1400 50  0001 C CNN
+F 3 "" H 4700 1400 50  0001 C CNN
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1400 4700 1500
+Wire Wire Line
+	4700 1800 4800 1800
+Wire Wire Line
+	4800 1500 4700 1500
+Connection ~ 4700 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 5FC35DEA
+P 2800 2200
+F 0 "#PWR0102" H 2800 1950 50  0001 C CNN
+F 1 "GND" H 2805 2027 50  0000 C CNN
+F 2 "" H 2800 2200 50  0001 C CNN
+F 3 "" H 2800 2200 50  0001 C CNN
+	1    2800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2200 2800 2100
+Wire Wire Line
+	2800 2100 2900 2100
+Text Label 2650 1600 0    50   ~ 0
+PRST
+Wire Wire Line
+	2650 1700 2900 1700
+Wire Wire Line
+	5300 1800 5300 1650
+Wire Wire Line
+	5300 1500 5200 1500
+Wire Wire Line
+	5300 1800 5200 1800
+Wire Wire Line
+	4700 1800 4700 1900
+Connection ~ 4700 1800
+Wire Wire Line
+	4700 1500 4700 1800
+Wire Wire Line
+	4700 2200 4700 2300
+Wire Wire Line
+	4700 2300 4800 2300
+Wire Wire Line
+	4800 2600 4700 2600
+Wire Wire Line
+	4700 2600 4700 2300
+Connection ~ 4700 2300
+Text Label 5550 1650 2    50   ~ 0
+PRST
+Wire Wire Line
+	4700 2600 4700 2700
+Connection ~ 4700 2600
+Wire Wire Line
+	4800 3100 4700 3100
+Wire Wire Line
+	4700 3100 4700 3000
+Wire Wire Line
+	4800 3400 4700 3400
+Wire Wire Line
+	4700 3400 4700 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	4700 3400 4700 3500
+Connection ~ 4700 3400
+Wire Wire Line
+	4700 3800 4700 4000
+Wire Wire Line
+	4700 4000 4900 4000
+Wire Wire Line
+	5200 2300 5300 2300
+Wire Wire Line
+	5300 2300 5300 2450
+Wire Wire Line
+	5300 2600 5200 2600
+Wire Wire Line
+	5200 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3250
+Wire Wire Line
+	5300 3400 5200 3400
+Wire Wire Line
+	5550 1650 5300 1650
+Connection ~ 5300 1650
+Wire Wire Line
+	5300 1650 5300 1500
+Text Label 5550 2450 2    50   ~ 0
+PRST
+Text Label 5550 3250 2    50   ~ 0
+PRST
+Wire Wire Line
+	5550 3250 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5300 3250 5300 3400
+Wire Wire Line
+	5550 2450 5300 2450
+Connection ~ 5300 2450
+Wire Wire Line
+	5300 2450 5300 2600
+Text Label 4500 4200 0    50   ~ 0
+PRST
+Wire Wire Line
+	4500 4200 4800 4200
+$Comp
+L power:+5V #PWR0103
+U 1 1 5FC2CFF0
+P 7100 1400
+F 0 "#PWR0103" H 7100 1250 50  0001 C CNN
+F 1 "+5V" H 7115 1573 50  0000 C CNN
+F 2 "" H 7100 1400 50  0001 C CNN
+F 3 "" H 7100 1400 50  0001 C CNN
+	1    7100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FC30334
+P 6700 2600
+F 0 "#PWR0104" H 6700 2350 50  0001 C CNN
+F 1 "GND" H 6705 2427 50  0000 C CNN
+F 2 "" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1700 7100 1700
+Wire Wire Line
+	7100 1700 7100 1800
+Wire Wire Line
+	7100 1400 7100 1500
+Wire Wire Line
+	7100 1500 7200 1500
+Text Label 6300 2000 0    50   ~ 0
+BUZZER
+Wire Wire Line
+	6300 2000 6700 2000
+Wire Wire Line
+	6700 2000 6700 2100
+Wire Wire Line
+	6700 2000 6800 2000
+Connection ~ 6700 2000
+Wire Wire Line
+	6700 2400 6700 2500
+Wire Wire Line
+	6700 2500 7100 2500
+Wire Wire Line
+	7100 2200 7100 2500
+Connection ~ 6700 2500
+Wire Wire Line
+	6700 2500 6700 2600
+Text Label 3500 2000 0    50   ~ 0
+DCP_MOT
+Wire Wire Line
+	3500 1600 3400 1600
+Text Label 3500 1600 0    50   ~ 0
+BUZZER
+Wire Wire Line
+	3400 2000 3500 2000
+Text Label 3500 2100 0    50   ~ 0
+DCP_BRK
+Wire Wire Line
+	3400 2100 3500 2100
+Text Label 2650 1800 0    50   ~ 0
+LCK
+Wire Wire Line
+	2900 1800 2650 1800
+Text Label 6450 4000 2    50   ~ 0
+LCK
+$Comp
+L power:GND #PWR0105
+U 1 1 5FC664C3
+P 7250 4100
+F 0 "#PWR0105" H 7250 3850 50  0001 C CNN
+F 1 "GND" H 7255 3927 50  0000 C CNN
+F 2 "" H 7250 4100 50  0001 C CNN
+F 3 "" H 7250 4100 50  0001 C CNN
+	1    7250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4000 6550 4000
+Wire Wire Line
+	7150 4000 7250 4000
+Wire Wire Line
+	7250 4000 7250 4100
+$Comp
+L power:GND #PWR0106
+U 1 1 5FC8559F
+P 4800 4700
+F 0 "#PWR0106" H 4800 4450 50  0001 C CNN
+F 1 "GND" H 4805 4527 50  0000 C CNN
+F 2 "" H 4800 4700 50  0001 C CNN
+F 3 "" H 4800 4700 50  0001 C CNN
+	1    4800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4300 4800 4200
+Connection ~ 4800 4200
+Wire Wire Line
+	4800 4200 4900 4200
+Wire Wire Line
+	4800 4600 4800 4700
+Text Notes 2350 5900 0    50   ~ 0
+Gucken das die Reihenfolge auf dem Board richtig ist
+$Comp
+L power:GND #PWR0107
+U 1 1 5FCA6565
+P 1650 2300
+F 0 "#PWR0107" H 1650 2050 50  0001 C CNN
+F 1 "GND" H 1655 2127 50  0000 C CNN
+F 2 "" H 1650 2300 50  0001 C CNN
+F 3 "" H 1650 2300 50  0001 C CNN
+	1    1650 2300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1650 2300 1750 2300
+$Comp
+L power:+5V #PWR0108
+U 1 1 5FCA7D2E
+P 1350 2200
+F 0 "#PWR0108" H 1350 2050 50  0001 C CNN
+F 1 "+5V" H 1365 2373 50  0000 C CNN
+F 2 "" H 1350 2200 50  0001 C CNN
+F 3 "" H 1350 2200 50  0001 C CNN
+	1    1350 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1350 2200 1750 2200
+Text Label 1600 2100 2    50   ~ 0
+VLT
+Text Label 1600 2000 2    50   ~ 0
+NEO
+NoConn ~ 1750 1900
+Text Label 1600 1800 2    50   ~ 0
+ESC_DAT
+Text Label 1600 1700 2    50   ~ 0
+TRG
+Text Label 1600 1600 2    50   ~ 0
+PSH
+Text Label 1600 1500 2    50   ~ 0
+DCP_MOT
+Text Label 1600 1400 2    50   ~ 0
+DCP_BRK
+Wire Wire Line
+	1600 2100 1750 2100
+Wire Wire Line
+	1750 2000 1600 2000
+Wire Wire Line
+	1600 1800 1750 1800
+Wire Wire Line
+	1750 1700 1600 1700
+Wire Wire Line
+	1600 1600 1750 1600
+Wire Wire Line
+	1750 1500 1600 1500
+Wire Wire Line
+	1600 1400 1750 1400
+NoConn ~ 2900 1400
+NoConn ~ 3400 1400
+Text Label 3500 1700 0    50   ~ 0
+ESC_DAT
+Text Label 3500 1900 0    50   ~ 0
+ROT_B
+Wire Wire Line
+	3500 1900 3400 1900
+Wire Wire Line
+	3500 1800 3400 1800
+Wire Wire Line
+	3500 1700 3400 1700
+Text Label 3500 1800 0    50   ~ 0
+ROT_A
+$Comp
+L power:GND #PWR0109
+U 1 1 5FCCB8EC
+P 5850 4100
+F 0 "#PWR0109" H 5850 3850 50  0001 C CNN
+F 1 "GND" H 5855 3927 50  0000 C CNN
+F 2 "" H 5850 4100 50  0001 C CNN
+F 3 "" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	0    -1   -1   0   
+$EndComp
+Text Label 5800 4000 2    50   ~ 0
+ROT_B
+Text Label 5800 4200 2    50   ~ 0
+ROT_A
+Wire Wire Line
+	5500 4100 5850 4100
+Wire Wire Line
+	5800 4000 5500 4000
+Wire Wire Line
+	5500 4200 5800 4200
+$Comp
+L power:+5V #PWR0110
+U 1 1 5FCD658C
+P 3500 1400
+F 0 "#PWR0110" H 3500 1250 50  0001 C CNN
+F 1 "+5V" H 3515 1573 50  0000 C CNN
+F 2 "" H 3500 1400 50  0001 C CNN
+F 3 "" H 3500 1400 50  0001 C CNN
+	1    3500 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1400 3500 1500
+Wire Wire Line
+	3500 1500 3400 1500
+Text Label 2650 1500 0    50   ~ 0
+NEO
+Text Label 2650 1700 0    50   ~ 0
+VLT
+Wire Wire Line
+	2650 1600 2900 1600
+Wire Wire Line
+	2900 1500 2650 1500
+Text Label 2650 1900 0    50   ~ 0
+PSH
+Text Label 2650 2000 0    50   ~ 0
+TRG
+Wire Wire Line
+	2650 2000 2900 2000
+Wire Wire Line
+	2900 1900 2650 1900
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J1_2
+U 1 1 5FD8EE62
+P 3100 1700
+F 0 "J1_2" H 3150 2125 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 3150 2126 50  0001 C CNN
+F 2 "FDL3_KiCad:MicroVIew" H 3100 1700 50  0001 C CNN
+F 3 "~" H 3100 1700 50  0001 C CNN
+	1    3100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SL1
+U 1 1 5FC04601
+P 5000 1500
+F 0 "SL1" H 5000 1693 50  0000 C CNN
+F 1 "SW_Push" H 5000 1694 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 5000 1700 50  0001 C CNN
+F 3 "~" H 5000 1700 50  0001 C CNN
+	1    5000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FC3E4ED
+P 1550 3000
+F 0 "#FLG0101" H 1550 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 3173 50  0000 C CNN
+F 2 "" H 1550 3000 50  0001 C CNN
+F 3 "~" H 1550 3000 50  0001 C CNN
+	1    1550 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5FC3EE36
+P 1950 2900
+F 0 "#PWR0112" H 1950 2650 50  0001 C CNN
+F 1 "GND" H 1955 2727 50  0000 C CNN
+F 2 "" H 1950 2900 50  0001 C CNN
+F 3 "" H 1950 2900 50  0001 C CNN
+	1    1950 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 5FC3F4A3
+P 1550 2900
+F 0 "#PWR0113" H 1550 2750 50  0001 C CNN
+F 1 "+5V" H 1565 3073 50  0000 C CNN
+F 2 "" H 1550 2900 50  0001 C CNN
+F 3 "" H 1550 2900 50  0001 C CNN
+	1    1550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2900 1550 3000
+Wire Wire Line
+	1950 3000 1950 2900
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FC5EFB2
+P 1950 3000
+F 0 "#FLG0102" H 1950 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1950 3173 50  0000 C CNN
+F 2 "" H 1950 3000 50  0001 C CNN
+F 3 "~" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	-1   0    0    1   
+$EndComp
+Text Notes 2450 6150 0    50   ~ 0
+Mounting Holes!
+$EndSCHEMATC
